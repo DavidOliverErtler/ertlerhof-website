@@ -1,5 +1,7 @@
 # Offene Punkte (aus den Entwurfs-Hinweisen)
 
+> **Erledigt am 14.09.2026:** Social-Media-Links (Instagram, Facebook, LinkedIn) sind im Footer hinterlegt.
+
 Diese Hinweise standen bis zum Livegang sichtbar auf der Website und wurden am
 14.09.2026 entfernt. Inhaltlich sind sie weiterhin offen.
 
