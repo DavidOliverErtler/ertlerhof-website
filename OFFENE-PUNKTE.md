@@ -11,7 +11,7 @@
 >
 > **Erledigt:** Rolle bei JACK (Co-Founder und Geschäftsführer der Xplore Commerce GmbH).
 >
-> **Noch offen generell:** Lavendel-Preis, Mähtage-Termine, ein fehlendes Foto (Holzstoß mit Franz), UID-Nummer.
+> **Noch offen generell:** Lavendel-Preis, Mähtage-Termine, UID-Nummer.
 
 Diese Hinweise standen bis zum Livegang sichtbar auf der Website und wurden am
 14.09.2026 entfernt. Inhaltlich sind sie weiterhin offen.

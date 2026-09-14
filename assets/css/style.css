@@ -101,7 +101,8 @@ p:last-child { margin-bottom: 0; }
 .wrap-narrow { width: min(100% - 2 * var(--gut), 760px); margin-inline: auto; }
 
 section { padding: clamp(56px, 9vw, 116px) 0; }
-[id] { scroll-margin-top: 88px; }
+[id] { scroll-margin-top: 128px; }
+@media (max-width: 900px) { [id] { scroll-margin-top: 108px; } }
 
 .bg-sand   { background: var(--sand); }
 .bg-white  { background: var(--white); }
@@ -283,6 +284,7 @@ section { padding: clamp(56px, 9vw, 116px) 0; }
 .figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .figure.portrait img { aspect-ratio: 3 / 4; }
 .figure.square img { aspect-ratio: 1 / 1; }
+.figure.wide img { aspect-ratio: 16 / 9; }
 .figure figcaption {
   font-size: .8rem; color: var(--ink-soft); margin-top: .8rem; letter-spacing: .02em;
 }
