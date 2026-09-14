@@ -15,19 +15,3 @@
     });
   });
 })();
-
-// Kontaktformular: Im Entwurf noch ohne Backend
-(function () {
-  var form = document.querySelector('form[data-demo]');
-  if (!form) return;
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var note = form.querySelector('.form-result');
-    if (note) {
-      note.hidden = false;
-      note.textContent =
-        'Entwurfs-Modus: Das Formular ist noch nicht mit einem Postfach verbunden. ' +
-        'Bitte vorerst direkt an office@ertlerhof.at schreiben.';
-    }
-  });
-})();

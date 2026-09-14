@@ -7,7 +7,9 @@
 > - Datenschutz: Hosting (GitHub Pages) und Google Fonts konkret benannt
 >
 > **Noch offen im Impressum:** UID-Nummer — nur nötig, falls vorhanden.
-> **Noch offen generell:** Kontaktformular ohne Backend, Lavendel-Preis,
+> **Erledigt:** Kontaktformular entfernt — Kontakt läuft über Telefon und E-Mail.
+>
+> **Noch offen generell:** Lavendel-Preis,
 > Rolle bei JACK, Mähtage-Termine, zwei fehlende Fotos.
 
 Diese Hinweise standen bis zum Livegang sichtbar auf der Website und wurden am
