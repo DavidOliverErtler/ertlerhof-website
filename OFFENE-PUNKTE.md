@@ -1,6 +1,14 @@
 # Offene Punkte (aus den Entwurfs-Hinweisen)
 
-> **Erledigt am 14.09.2026:** Social-Media-Links (Instagram, Facebook, LinkedIn) sind im Footer hinterlegt.
+> **Erledigt am 14.09.2026:**
+> - Social-Media-Links (Instagram, Facebook, LinkedIn) im Footer
+> - Impressum vervollständigt: Betriebsnummer 2959925, Kammerzugehörigkeit
+>   (LK Steiermark, Bezirkskammer Südoststeiermark), Aufsichtsbehörde, Rechtsvorschriften
+> - Datenschutz: Hosting (GitHub Pages) und Google Fonts konkret benannt
+>
+> **Noch offen im Impressum:** UID-Nummer — nur nötig, falls vorhanden.
+> **Noch offen generell:** Kontaktformular ohne Backend, Lavendel-Preis,
+> Rolle bei JACK, Mähtage-Termine, zwei fehlende Fotos.
 
 Diese Hinweise standen bis zum Livegang sichtbar auf der Website und wurden am
 14.09.2026 entfernt. Inhaltlich sind sie weiterhin offen.
