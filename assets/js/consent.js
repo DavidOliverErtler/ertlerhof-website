@@ -7,7 +7,7 @@
    ============================================================ */
 
 (function () {
-  var GA_ID = "G-80NGLHMFLP";              // <-- hier die Mess-ID aus Google Analytics eintragen
+  var GA_ID = "G-FGK8RJVS7F";              // Property "Ertler Hof"
   var KEY = "ertlerhof-consent";
 
   if (!GA_ID) return;
