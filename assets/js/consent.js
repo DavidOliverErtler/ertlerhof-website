@@ -1,9 +1,10 @@
 /* ============================================================
    Einwilligung & Google Analytics
    ------------------------------------------------------------
-   Die Mess-ID unten eintragen (Format G-XXXXXXXXXX), dann ist
-   die Messung aktiv. Solange sie leer ist, passiert gar nichts:
-   kein Banner, keine Cookies, keine Verbindung zu Google.
+   Messung laeuft ueber das Property "Ertler Hof" (G-FGK8RJVS7F).
+   Vor der Zustimmung wird nichts geladen und nichts gesetzt; bei
+   Ablehnung oder Widerruf werden gesetzte Cookies wieder entfernt.
+   GA_ID leeren schaltet alles ab: kein Banner, keine Cookies.
    ============================================================ */
 
 (function () {
