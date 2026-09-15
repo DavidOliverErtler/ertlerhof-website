@@ -35,3 +35,7 @@ Diese Hinweise standen bis zum Livegang sichtbar auf der Website und wurden am
 - **produkte.html** — Entwurfs-Hinweis: Alle Links sind geprüft. Bitte vor dem Livegang noch kurz bei den Betrieben nachfragen, ob sie namentlich genannt werden möchten — Logos wären hier zusätzlich schön.
 
 - **produkte.html** — Entwurfs-Hinweis: Ein echter Online-Shop (Bestellung und Bezahlung direkt auf der Seite) lässt sich später ergänzen — dafür brauchen wir Versandlösung, Zahlungsanbieter und AGB.
+
+- **rezepte.html** — Fotos der fertigen Gerichte fehlen. Sobald es welche gibt, kann ich sie in die Rezeptkarten einbauen und Recipe-Strukturdaten (schema.org) ergänzen — damit ist die Seite für Googles Rezept-Suchergebnisse mit Bild, Zeit und Bewertung qualifiziert. Ohne eigenes Foto pro Rezept funktioniert das nicht.
+
+- **rezepte.html** — Die Rezepte sind Standardzubereitungen, keine Familienrezepte. Wenn es am Hof eine eigene Art gibt, die Eier zuzubereiten, nehme ich sie gerne auf — das ist glaubwürdiger als jedes Kochbuch.
