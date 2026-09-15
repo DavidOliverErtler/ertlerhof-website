@@ -426,6 +426,49 @@ section { padding: clamp(56px, 9vw, 116px) 0; }
   padding: 14px 18px; font-size: .86rem; color: #6B5500;
 }
 
+/* ---------- Einwilligungsbanner ---------- */
+
+.consent {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 90;
+  background: var(--black); color: #E8E4DA;
+  border-top: 3px solid var(--yellow);
+  animation: consent-in .28s ease-out;
+}
+@keyframes consent-in { from { transform: translateY(100%); } to { transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .consent { animation: none; } }
+
+.consent-inner {
+  width: min(100% - 2 * var(--gut), var(--wrap)); margin-inline: auto;
+  padding: 22px 0 24px;
+  display: flex; flex-wrap: wrap; gap: 18px 40px; align-items: center;
+  justify-content: space-between;
+}
+.consent-text { flex: 1 1 420px; }
+.consent-text strong {
+  display: block; font-family: var(--serif); font-weight: 500;
+  font-size: 1.25rem; color: var(--white); margin-bottom: .4rem;
+}
+.consent-text p { margin: 0; font-size: .92rem; line-height: 1.6; color: #B9B4A8; max-width: 66ch; }
+.consent-text a { color: var(--white); text-decoration: none; border-bottom: 1px solid var(--yellow); }
+
+.consent-actions { display: flex; flex-wrap: wrap; gap: 12px; flex: 0 0 auto; }
+.consent-btn {
+  font-family: var(--sans); font-size: .78rem; font-weight: 600;
+  letter-spacing: .1em; text-transform: uppercase;
+  padding: 13px 26px; border: 1px solid; cursor: pointer;
+  transition: background .18s ease, color .18s ease, border-color .18s ease;
+}
+.consent-no { background: transparent; color: var(--white); border-color: rgba(255,255,255,.55); }
+.consent-no:hover { background: var(--white); color: var(--black); border-color: var(--white); }
+.consent-yes { background: var(--yellow); color: var(--black); border-color: var(--yellow); }
+.consent-yes:hover { background: var(--white); border-color: var(--white); }
+.consent-btn:focus-visible { outline: 2px solid var(--yellow); outline-offset: 3px; }
+
+@media (max-width: 700px) {
+  .consent-actions { width: 100%; }
+  .consent-btn { flex: 1 1 auto; text-align: center; }
+}
+
 /* ---------- Responsive ---------- */
 
 @media (max-width: 900px) {
