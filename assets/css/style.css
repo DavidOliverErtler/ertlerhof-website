@@ -245,12 +245,12 @@ section { padding: clamp(56px, 9vw, 116px) 0; }
 /* ---------- Archivfotos (Sektion „Der Ursprung“) ---------- */
 
 .archive {
-  columns: 2;
-  column-gap: clamp(20px, 3vw, 36px);
+  columns: 3;
+  column-gap: clamp(16px, 2.2vw, 28px);
 }
 .archive figure {
   break-inside: avoid;
-  margin: 0 0 clamp(20px, 3vw, 36px);
+  margin: 0 0 clamp(16px, 2.2vw, 28px);
   background: var(--white);
   border: 1px solid var(--line);
   padding: 12px 12px 0;
@@ -264,7 +264,8 @@ section { padding: clamp(56px, 9vw, 116px) 0; }
   padding: 12px 4px 14px;
 }
 
-@media (max-width: 700px) { .archive { columns: 1; } }
+@media (max-width: 1000px) { .archive { columns: 2; } }
+@media (max-width: 620px)  { .archive { columns: 1; } }
 
 /* ---------- Karten / Werte ---------- */
 
@@ -493,6 +494,20 @@ section { padding: clamp(56px, 9vw, 116px) 0; }
   }
   .nav-open .nav { max-height: 420px; padding: 10px var(--gut) 26px; }
   .nav a { width: 100%; padding: 13px 0; font-size: .85rem; border-bottom: 1px solid transparent; }
+}
+
+/* Größere Tippflächen am Handy — negative Margins halten das Layout gleich */
+@media (max-width: 900px) {
+  .site-footer li a,
+  .footer-bottom a,
+  .contact-card dd a {
+    display: inline-block;
+    padding: 8px 0;
+    margin: -8px 0;
+  }
+  .link-more { padding: 7px 0; margin: -7px 0; }
+  .social a { width: 44px; height: 44px; }
+  .faq summary { padding-top: 20px; padding-bottom: 20px; }
 }
 
 @media (max-width: 560px) {
