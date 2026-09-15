@@ -7,7 +7,7 @@
    ============================================================ */
 
 (function () {
-  var GA_ID = "";              // <-- hier die Mess-ID aus Google Analytics eintragen
+  var GA_ID = "G-80NGLHMFLP";              // <-- hier die Mess-ID aus Google Analytics eintragen
   var KEY = "ertlerhof-consent";
 
   if (!GA_ID) return;
@@ -45,6 +45,27 @@
     gtag("config", GA_ID);
   }
 
+  // Bei Ablehnung oder Widerruf: bereits gesetzte Google-Cookies wieder entfernen
+  // und die Messung für diese Mess-ID abschalten.
+  function clearAnalytics() {
+    gtag("consent", "update", { analytics_storage: "denied" });
+    window["ga-disable-" + GA_ID] = true;
+
+    var host = location.hostname;
+    var scopes = ["", host, "." + host];
+    var parts = host.split(".");
+    if (parts.length > 2) scopes.push("." + parts.slice(-2).join("."));
+
+    document.cookie.split(";").forEach(function (raw) {
+      var name = raw.split("=")[0].trim();
+      if (!/^_ga|^_gid$|^_gat/.test(name)) return;
+      scopes.forEach(function (d) {
+        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/" +
+          (d ? "; domain=" + d : "");
+      });
+    });
+  }
+
   /* ---------- Banner ---------- */
 
   var banner = null;
@@ -58,7 +79,7 @@
 
   function decide(value) {
     store.set(value);
-    if (value === "granted") loadAnalytics();
+    if (value === "granted") { loadAnalytics(); } else { clearAnalytics(); }
     closeBanner();
   }
 
@@ -96,7 +117,9 @@
   var saved = store.get();
   if (saved === "granted") {
     loadAnalytics();
-  } else if (saved !== "denied") {
+  } else if (saved === "denied") {
+    clearAnalytics();
+  } else {
     if (document.readyState === "loading") {
       document.addEventListener("DOMContentLoaded", showBanner);
     } else {
