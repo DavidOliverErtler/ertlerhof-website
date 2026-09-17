@@ -39,3 +39,9 @@ Diese Hinweise standen bis zum Livegang sichtbar auf der Website und wurden am
 - **rezepte.html** — Fotos der fertigen Gerichte fehlen. Sobald es welche gibt, kann ich sie in die Rezeptkarten einbauen und Recipe-Strukturdaten (schema.org) ergänzen — damit ist die Seite für Googles Rezept-Suchergebnisse mit Bild, Zeit und Bewertung qualifiziert. Ohne eigenes Foto pro Rezept funktioniert das nicht.
 
 - **rezepte.html** — Die Rezepte sind Standardzubereitungen, keine Familienrezepte. Wenn es am Hof eine eigene Art gibt, die Eier zuzubereiten, nehme ich sie gerne auf — das ist glaubwürdiger als jedes Kochbuch.
+
+- **wachteln.html** — Der Abschnitt „Im Wachtelstall" ist neu und deckt damit den Suchbegriff „Wachtelstall" ab, der bisher gefehlt hat.
+
+- **Bilder aus dem Hofordner** — IMG_3062 zeigt ein Kind erkennbar. Für eine Veröffentlichung braucht es die Zustimmung der Erziehungsberechtigten (§ 78 UrhG). Deshalb nicht verwendet.
+
+- **Bilder aus dem Hofordner** — Die vier Dateien `Gemini_Generated_Image_*.png` sind KI-erzeugt. Auf einer Hofwebsite als echte Aufnahmen gezeigt wären sie irreführend; für Werbematerial mit Kennzeichnung sind sie in Ordnung. Deshalb nicht verwendet.
