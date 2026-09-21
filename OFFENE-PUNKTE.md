@@ -52,3 +52,5 @@ Diese Hinweise standen bis zum Livegang sichtbar auf der Website und wurden am
 - **Erledigt:** exakte Wortfolge „Wachteleier aus der Steiermark" auf Start- und Produktseite; Sitemap-lastmod auf 20.09.; Indexierung über die Search Console beantragt (rezepte bestätigt „added to a priority crawl queue", übrige laufen).
 - **Für David:** Partner bei bauernladen.at werden („Für Produzenten → Werden Sie Partner!"; steht auf Platz 3 für den Begriff, listet steiermarkweit nur einen Wachtelhof) · drei bis fünf Google-Bewertungen einholen · Verzeichniseinträge (landwirt.com, Kulinarium Steiermark, Vulkanland, LK-Direktvermarkter).
 - **Einordnung:** Platz 1 (Familie Maier) hat 168 Wörter, kein „Steiermark" im Text, keine Strukturdaten — rankt über Alter und Bekanntheit. Inhaltlich ist ertlerhof.at stärker; was fehlt, sind Zeit und Links.
+
+- **produkte.html** — Delikatessen Nussbaumer verlinkt auf Facebook (facebook.com/DelikatessenNussbaumer), weil www.delikatessen-nussbaumer.at seit 15.09. keine Verbindung annimmt. Sobald die Website wieder erreichbar ist, den Link zurückstellen.
